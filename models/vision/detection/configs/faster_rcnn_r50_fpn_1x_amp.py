@@ -63,7 +63,7 @@ test_cfg = dict(
 )
 # dataset settings
 dataset_type = 'CocoDataset'
-data_root = '/data/COCO/'
+data_root = '/scratch/data/coco/'
 data = dict(
     imgs_per_gpu=4,
     train=dict(
